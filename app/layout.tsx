@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     url: 'https://slotssportswear.com',
     images: [
       {
-        url: 'https://i.pinimg.com/originals/cd/44/98/cd4498d59ae2318e6283df5a611568d4.png',
+        url: 'https://res.cloudinary.com/dhrfua4wp/image/upload/v1780148472/remove_the_text_on_this_202605301840_dqohzp.webp',
         width: 1200,
         height: 630,
         alt: 'Slots Sports Wear - Premium Clothing Manufacturer',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: 'Slots Sports Wear — Premium Clothing Manufacturer',
     description:
       'High-quality custom apparel manufacturing with low MOQ. Activewear, formalwear & more from Pakistan.',
-    images: ['https://i.pinimg.com/originals/cd/44/98/cd4498d59ae2318e6283df5a611568d4.png'],
+    images: ['https://res.cloudinary.com/dhrfua4wp/image/upload/v1780148472/remove_the_text_on_this_202605301840_dqohzp.webp'],
   },
 };
 

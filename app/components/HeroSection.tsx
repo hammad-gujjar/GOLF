@@ -138,7 +138,7 @@ const HeroSection = ({ arrivalData }: HeroSectionProps) => {
       {/* Background image — LCP element, load eagerly with high fetch priority */}
       <img
         className='object-cover size-full'
-        src="https://i.pinimg.com/1200x/ef/b5/c7/efb5c7498f5826b250c50b786b331b38.jpg"
+        src="https://res.cloudinary.com/dhrfua4wp/image/upload/v1780148472/remove_the_text_on_this_202605301840_dqohzp.webp"
         alt="Slots Sports Wear premium clothing collection"
         loading="eager"
         fetchPriority="high"
