@@ -11,10 +11,10 @@ const db = client.db();
 
 export const auth = betterAuth({
     database: mongodbAdapter(db, { client }),
-    baseURL: process.env.BETTER_AUTH_URL || "http://localhost:3000",
+    baseURL: process.env.BETTER_AUTH_URL || "https://customgolfapparels.vercel.app",
     trustedOrigins: [
         process.env.BETTER_AUTH_URL,
-        "http://localhost:3000",
+        "https://customgolfapparels.vercel.app",
     ].filter(Boolean) as string[],
 
     plugins: [myPlugin()],
