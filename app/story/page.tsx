@@ -4,11 +4,11 @@ import FormattedTitle from '../components/FormattedTitle';
 
 export const metadata: Metadata = {
     title: 'Our Story',
-    description: 'Discover the story behind Slots Sports Wear — a premium sportswear manufacturer born in Pakistan, built on quality craftsmanship, low MOQ, and a passion for performance apparel.',
+    description: 'Discover the story behind Custom Golf Apparels — a premium sportswear manufacturer born in Pakistan, built on quality craftsmanship, low MOQ, and a passion for performance apparel.',
     openGraph: {
-        title: 'Our Story — Slots Sports Wear',
-        description: 'From a small workshop to a globally trusted sportswear manufacturer. Learn how Slots Sports Wear was built on quality, integrity, and performance.',
-        images: [{ url: 'https://i.pinimg.com/1200x/70/64/3f/70643f7a6e3937ce322314083d60ea8d.jpg', width: 1200, height: 630, alt: 'Slots Sports Wear Factory' }],
+        title: 'Our Story — Custom Golf Apparels',
+        description: 'From a small workshop to a globally trusted sportswear manufacturer. Learn how Custom Golf Apparels was built on quality, integrity, and performance.',
+        images: [{ url: 'https://i.pinimg.com/1200x/70/64/3f/70643f7a6e3937ce322314083d60ea8d.jpg', width: 1200, height: 630, alt: 'Custom Golf Apparels Factory' }],
     },
 };
 
@@ -37,7 +37,7 @@ export default function StoryPage() {
                     <span className="text-[10px] uppercase tracking-[0.5em] font-bold opacity-30">Est. 2018 · Punjab, Pakistan</span>
                     <h1 className="uppercase"><FormattedTitle>Our Story</FormattedTitle></h1>
                     <p className="md:w-[55%] w-full">
-                        From a single cutting table in Lahore to a globally trusted manufacturing partner — this is how Slots Sports Wear was built, stitch by stitch.
+                        From a single cutting table in Lahore to a globally trusted manufacturing partner — this is how Custom Golf Apparels was built, stitch by stitch.
                     </p>
                 </div>
             </section>
@@ -46,7 +46,7 @@ export default function StoryPage() {
             <div className="w-full px-5 md:px-10">
                 <img
                     src="https://i.pinimg.com/1200x/70/64/3f/70643f7a6e3937ce322314083d60ea8d.jpg"
-                    alt="Slots Sports Wear manufacturing facility"
+                    alt="Custom Golf Apparels manufacturing facility"
                     className="w-full h-[60vh] md:h-[80vh] object-cover"
                     loading="eager"
                 />
@@ -61,7 +61,7 @@ export default function StoryPage() {
                     </div>
                     <div className="flex flex-col gap-4">
                         <p>
-                            Slots Sports Wear was founded on a belief that quality sportswear manufacturing should be accessible to brands of all sizes. We combine Pakistan's deep textile heritage with modern production technology to deliver apparel that performs — on the field and in the market.
+                            Custom Golf Apparels was founded on a belief that quality sportswear manufacturing should be accessible to brands of all sizes. We combine Pakistan's deep textile heritage with modern production technology to deliver apparel that performs — on the field and in the market.
                         </p>
                         <p>
                             Our ISO-certified facility runs on a simple principle: every brand that trusts us with their product deserves factory-direct pricing, expert craftsmanship, and a partner that communicates honestly throughout the entire process.

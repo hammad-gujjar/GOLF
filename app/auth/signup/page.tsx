@@ -72,7 +72,7 @@ export default function SignUp() {
 
           <div className="relative z-10">
             <p className="uppercase text-[#EDEEE7]/40 font-bold">New Member</p>
-            <h1 className="text-[#EDEEE7]! mt-4">Join Slots Today.</h1>
+            <h1 className="text-[#EDEEE7]! mt-4">Join Golf Today.</h1>
             <p className="mt-6 text-[#EDEEE7]/50 max-w-xs">
               Become part of an exclusive community that values craftsmanship, quality, and timeless style.
             </p>

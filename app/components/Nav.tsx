@@ -265,7 +265,7 @@ const Nav = () => {
                     <div className="lg:flex-none lg:w-1/3 flex justify-center">
                         <TransitionButton text={<ul className="w-fit h-[7vh] md:h-full">
                             <img className='size-full object-contain' src='/images/daccilogosvg.png' alt='logo' />
-                            <span className='font-[main] text-xl tracking-tighter uppercase font-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>Slots</span>
+                            <span className='font-[main] text-xl tracking-tighter uppercase font-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>Golf</span>
                         </ul>} url='/' className="relative md:h-[9vh] pointer-events-auto z-101 cursor-pointer" />
                     </div>
 

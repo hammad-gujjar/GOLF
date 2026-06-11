@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin/', '/dashboard/', '/api/', '/auth/'],
       },
     ],
-    sitemap: 'https://slotssportswear.com/sitemap.xml',
-    host: 'https://slotssportswear.com',
+    sitemap: 'https://customgolfapparels.com/sitemap.xml',
+    host: 'https://customgolfapparels.com',
   };
 }

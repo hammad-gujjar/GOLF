@@ -6,10 +6,10 @@ import Heading from './Heading';
 
 const LINKS = {
     quickLinks: [
-        { label: 'Instagram', href: 'https://www.instagram.com/slotssportswear2025/', icon: <IoLogoInstagram /> },
+        { label: 'Instagram', href: 'https://www.instagram.com/customgolfapparels2025/', icon: <IoLogoInstagram /> },
         { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61579978311422', icon: <IoLogoFacebook /> },
-        { label: 'Twitter', href: 'https://x.com/SlotsSportswear', icon: <FaXTwitter /> },
-        { label: 'Pinterest', href: 'https://www.pinterest.com/slotssportswear/', icon: <IoLogoPinterest /> },
+        { label: 'Twitter', href: 'https://x.com/customgolfapparels', icon: <FaXTwitter /> },
+        { label: 'Pinterest', href: 'https://www.pinterest.com/customgolfapparels/', icon: <IoLogoPinterest /> },
     ]
 };
 
@@ -22,8 +22,8 @@ const Footer = () => {
                     {/* Branding & Mission */}
                     <div className="flex flex-col gap-5 pr-15">
                         <div className="flex items-center gap-5">
-                            <img src="/images/daccilogosvg.png" alt="Slots Sports Wear logo" className="size-8 object-contain invert" />
-                            <span className="text-xl font-[main] uppercase tracking-tighter">Slots Sports Wear</span>
+                            <img src="/images/logo.png" alt="Custom Golf Apparels logo" className="size-20 object-contain invert" />
+                            <span className="text-xl font-[main] uppercase tracking-tighter">Custom Golf Apparels</span>
                         </div>
                         <p className="text-sm font-light leading-relaxed text-[#EDEEE7]/60 max-w-sm">
                             A premium sportswear manufacturing brand focused on high-quality custom apparel. Low MOQ, fast lead times, and global delivery from Pakistan.
@@ -43,10 +43,10 @@ const Footer = () => {
                         <ul className="flex flex-col gap-3">
                             {[
                                 { label: 'New Arrivals', href: '/shop?sort=newest' },
-                                { label: 'Sports Collection', href: '/shop?category=sport' },
-                                { label: 'Casuals Collection', href: '/shop?category=casual' },
-                                { label: 'Team Collection', href: '/shop?category=team' },
-                                { label: 'Limited Edition', href: '/shop?tags=limited' },
+                                { label: 'Polo Collection', href: '/shop?category=Polo-shirt' },
+                                { label: 'Jacket Collection', href: '/shop?category=Jacket' },
+                                { label: 'Vest Collection', href: '/shop?category=Vest' },
+                                { label: 'Gloves Collection', href: '/shop?category=Gloves' },
                                 { label: 'FAQs', href: '/faq' },
                             ].map((link) => (
                                 <li key={link.label}>
@@ -97,13 +97,13 @@ const Footer = () => {
 
                 {/* Massive Branding */}
                 <div className="relative pointer-events-none select-none w-full h-fit flex justify-center py-5">
-                    <Heading title="SLOT SPORTS WEAR" className='!text-[#EDEEE7]' />
+                    <Heading title="CUSTOM GOLF APPARELS" className='!text-[#EDEEE7]' />
                 </div>
 
                 {/* Bottom Meta */}
                 <div className="flex flex-col justify-between items-center gap-5 pt-10 border-t border-white/5">
                     <p className="uppercase opacity-30 font-bold text-center">
-                        © 2026 SLOTS SPORTS WEAR • DESIGNED BY SLOTS DEVELOPERS
+                        © 2026 Custom Golf Apparels • DESIGNED BY DACCI DEVELOPERS
                     </p>
                     <div className="flex flex-wrap justify-center gap-8">
                         {[

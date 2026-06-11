@@ -6,7 +6,7 @@ export const dynamic = 'force-dynamic';
 export const revalidate = 3600; // regenerate every hour
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://slotssportswear.com';
+  const baseUrl = 'https://customgolfapparels.com';
 
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [

@@ -55,7 +55,7 @@ export async function POST(req: Request) {
 
                     <div style="margin-top: 40px; border-top: 1px solid #f0f0f0; padding-top: 30px; text-align: center;">
                         <p style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.3em; color: #ccc; font-weight: bold;">
-                            Slots Sports Wear · Manufacturing Excellence
+                            Custom Golf Apparels · Manufacturing Excellence
                         </p>
                     </div>
                 </div>

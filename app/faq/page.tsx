@@ -4,10 +4,10 @@ import FormattedTitle from '../components/FormattedTitle';
 
 export const metadata: Metadata = {
     title: 'FAQs',
-    description: 'Find answers to the most common questions about Slots Sports Wear — including MOQ, lead times, sampling, shipping, custom orders, and payment.',
+    description: 'Find answers to the most common questions about Custom Golf Apparels — including MOQ, lead times, sampling, shipping, custom orders, and payment.',
     openGraph: {
-        title: 'Frequently Asked Questions — Slots Sports Wear',
-        description: 'Everything you need to know about working with Slots Sports Wear. MOQ, sampling, lead times, and more answered here.',
+        title: 'Frequently Asked Questions — Custom Golf Apparels',
+        description: 'Everything you need to know about working with Custom Golf Apparels. MOQ, sampling, lead times, and more answered here.',
     },
 };
 
@@ -64,7 +64,7 @@ export default function FaqPage() {
                     <span className="text-[10px] uppercase tracking-[0.5em] font-bold opacity-30">Help Center</span>
                     <h1 className="uppercase"><FormattedTitle>Frequently Asked Questions</FormattedTitle></h1>
                     <p className="md:w-[50%] w-full">
-                        Everything you need to know about partnering with Slots Sports Wear — from your first inquiry to final delivery.
+                        Everything you need to know about partnering with Custom Golf Apparels — from your first inquiry to final delivery.
                     </p>
                 </div>
             </section>

@@ -139,7 +139,7 @@ const HeroSection = ({ arrivalData }: HeroSectionProps) => {
       <img
         className='object-cover size-full'
         src="https://res.cloudinary.com/dhrfua4wp/image/upload/v1780148472/remove_the_text_on_this_202605301840_dqohzp.webp"
-        alt="Slots Sports Wear premium clothing collection"
+        alt="Custom Golf Apparels premium clothing collection"
         loading="eager"
         fetchPriority="high"
         decoding="async"
@@ -232,7 +232,7 @@ const HeroSection = ({ arrivalData }: HeroSectionProps) => {
         <div className="w-full md:w-[60%] md:mt-4 mt-2">
           <p className="text-[#EDEEE7]! w-full flex flex-wrap gap-x-[0.3em]">
             {splitText(
-              'Slots Sports Wear is a classic and modern clothing brand that promote classic formal and streatwear clothes and custom manufacturing for clients even in bulk and quality you can see in website'
+              'Custom Golf Apparels is a classic and modern clothing brand that promote classic formal and streatwear clothes and custom manufacturing for clients even in bulk and quality you can see in website'
             )}
           </p>
         </div>

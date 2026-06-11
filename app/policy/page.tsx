@@ -4,10 +4,10 @@ import FormattedTitle from '../components/FormattedTitle';
 
 export const metadata: Metadata = {
     title: 'Privacy Policy',
-    description: 'Read the Slots Sports Wear Privacy Policy. Learn how we collect, use, and protect your personal data when you interact with our website and services.',
+    description: 'Read the Custom Golf Apparels Privacy Policy. Learn how we collect, use, and protect your personal data when you interact with our website and services.',
     openGraph: {
-        title: 'Privacy Policy — Slots Sports Wear',
-        description: 'How Slots Sports Wear collects, uses, and protects your personal information. Your privacy is our priority.',
+        title: 'Privacy Policy — Custom Golf Apparels',
+        description: 'How Custom Golf Apparels collects, uses, and protects your personal information. Your privacy is our priority.',
     },
     robots: { index: true, follow: true },
 };
@@ -108,7 +108,7 @@ export default function PolicyPage() {
                     <span className="text-[10px] uppercase tracking-[0.5em] font-bold opacity-30">Legal · Last Updated: April 2026</span>
                     <h1 className="uppercase"><FormattedTitle>Privacy Policy</FormattedTitle></h1>
                     <p className="md:w-[55%] w-full">
-                        Slots Sports Wear is committed to protecting your personal information and your right to privacy. This policy explains what we collect, how we use it, and your rights as our customer.
+                        Custom Golf Apparels is committed to protecting your personal information and your right to privacy. This policy explains what we collect, how we use it, and your rights as our customer.
                     </p>
                 </div>
             </section>

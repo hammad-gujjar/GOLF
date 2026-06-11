@@ -4,9 +4,9 @@ import FormattedTitle from '../components/FormattedTitle';
 
 export const metadata: Metadata = {
     title: 'Returns & Refunds',
-    description: 'Understand the Slots Sports Wear Returns and Refund Policy. Learn the conditions for returns, how to initiate a return, and our refund processing timelines.',
+    description: 'Understand the Custom Golf Apparels Returns and Refund Policy. Learn the conditions for returns, how to initiate a return, and our refund processing timelines.',
     openGraph: {
-        title: 'Returns & Refunds Policy — Slots Sports Wear',
+        title: 'Returns & Refunds Policy — Custom Golf Apparels',
         description: 'Our clear and fair returns policy for custom sportswear orders. Your satisfaction is backed by our quality guarantee.',
     },
     robots: { index: true, follow: true },
@@ -22,7 +22,7 @@ export default function RefundPage() {
                     <span className="text-[10px] uppercase tracking-[0.5em] font-bold opacity-30">Policy · Last Updated: April 2026</span>
                     <h1 className="uppercase"><FormattedTitle>Returns & Refunds</FormattedTitle></h1>
                     <p className="md:w-[55%] w-full">
-                        At Slots Sports Wear, we stand behind the quality of every order. This policy outlines when returns are accepted, how they are processed, and what you can expect.
+                        At Custom Golf Apparels, we stand behind the quality of every order. This policy outlines when returns are accepted, how they are processed, and what you can expect.
                     </p>
                 </div>
             </section>

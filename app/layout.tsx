@@ -10,13 +10,13 @@ import JsonLd from "@/components/JsonLd";
 import WhatsAppButton from "./components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://slotssportswear.com'),
+  metadataBase: new URL('https://customgolfapparels.com'),
   title: {
-    default: 'Slots Sports Wear — Premium Clothing Manufacturer | Low MOQ',
-    template: '%s | Slots Sports Wear',
+    default: 'Custom Golf Apparels — Premium Clothing Manufacturer | Low MOQ',
+    template: '%s | Custom Golf Apparels',
   },
   description:
-    'Slots Sports Wear is a premium clothing manufacturer based in Pakistan offering high-quality custom apparel, activewear, and formal wear with low minimum order quantities starting at 50 pieces.',
+    'Custom Golf Apparels is a premium clothing manufacturer based in Pakistan offering high-quality custom apparel, activewear, and formal wear with low minimum order quantities starting at 50 pieces.',
   keywords: [
     'clothing manufacturer Pakistan',
     'custom apparel manufacturer',
@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     'custom activewear',
     'custom sportswear',
     'private label clothing',
-    'Slots Sports Wear',
+    'Custom Golf Apparels',
     'Pakistan garment factory',
   ],
-  authors: [{ name: 'Slots Sports Wear', url: 'https://slotssportswear.com' }],
-  creator: 'Slots Sports Wear',
+  authors: [{ name: 'Custom Golf Apparels', url: 'https://customgolfapparels.com' }],
+  creator: 'Custom Golf Apparels',
   robots: {
     index: true,
     follow: true,
@@ -37,23 +37,23 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    siteName: 'Slots Sports Wear',
-    title: 'Slots Sports Wear — Premium Clothing Manufacturer | Low MOQ',
+    siteName: 'Custom Golf Apparels',
+    title: 'Custom Golf Apparels — Premium Clothing Manufacturer | Low MOQ',
     description:
       'High-quality custom apparel manufacturing with low MOQ. Activewear, formalwear & more from Pakistan.',
-    url: 'https://slotssportswear.com',
+    url: 'https://customgolfapparels.com',
     images: [
       {
         url: 'https://res.cloudinary.com/dhrfua4wp/image/upload/v1780148472/remove_the_text_on_this_202605301840_dqohzp.webp',
         width: 1200,
         height: 630,
-        alt: 'Slots Sports Wear - Premium Clothing Manufacturer',
+        alt: 'Custom Golf Apparels - Premium Clothing Manufacturer',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Slots Sports Wear — Premium Clothing Manufacturer',
+    title: 'Custom Golf Apparels — Premium Clothing Manufacturer',
     description:
       'High-quality custom apparel manufacturing with low MOQ. Activewear, formalwear & more from Pakistan.',
     images: ['https://res.cloudinary.com/dhrfua4wp/image/upload/v1780148472/remove_the_text_on_this_202605301840_dqohzp.webp'],
@@ -81,9 +81,9 @@ export default async function RootLayout({
         <JsonLd data={{
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "Slots Sports Wear",
-          "url": "https://slotssportswear.com",
-          "logo": "https://slotssportswear.com/images/logosvg.png",
+          "name": "Custom Golf Apparels",
+          "url": "https://customgolfapparels.com",
+          "logo": "https://customgolfapparels.com/images/logosvg.png",
           "description": "Premium clothing manufacturer in Pakistan offering high-quality custom apparel, activewear, and formal wear with low MOQ starting at 50 pieces.",
           "address": {
             "@type": "PostalAddress",
@@ -92,7 +92,7 @@ export default async function RootLayout({
           "contactPoint": {
             "@type": "ContactPoint",
             "contactType": "customer service",
-            "url": "https://slotssportswear.com/contact"
+            "url": "https://customgolfapparels.com/contact"
           },
           "sameAs": []
         }} />

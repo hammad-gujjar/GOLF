@@ -68,7 +68,7 @@ export default function SignIn() {
 
           <div className="relative z-10">
             <p className="uppercase text-[#EDEEE7]/40 font-bold">Welcome Back</p>
-            <h1 className="text-[#EDEEE7]! mt-4">SignIn to Slots.</h1>
+            <h1 className="text-[#EDEEE7]! mt-4">SignIn to Golf.</h1>
             <p className="mt-6 text-[#EDEEE7]/50 max-w-xs">
               Premium clothing crafted with care. Access your account to continue your journey.
             </p>

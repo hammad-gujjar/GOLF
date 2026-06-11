@@ -4,7 +4,7 @@ import FormattedTitle from '../components/FormattedTitle';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Cart · Slots Sports Wear',
+    title: 'Cart · Custom Golf Apparels',
     description: 'The cart page is currently under construction. Please check back soon or contact us for direct orders.',
 };
 
@@ -43,7 +43,7 @@ export default function CartApologyPage() {
 
                 <div className="pt-10">
                     <p className="text-center">
-                        Slots Sports Wear · Manufacturing Excellence
+                        Custom Golf Apparels · Manufacturing Excellence
                     </p>
                 </div>
             </div>

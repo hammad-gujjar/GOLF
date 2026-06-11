@@ -7,12 +7,11 @@ export default function Verifyemail() {
 
     return (
         <div className="min-h-screen flex items-center justify-center px-4 relative">
-            <img src="https://i.pinimg.com/1200x/a3/4e/ca/a34eca4b513511a5411c93b287a3cd0c.jpg" alt="background" className="absolute w-full h-full object-cover inset-0 z-[-1]" />
-            <div className="ios-card max-w-5xl">
-                <ul className="w-[50vw] flex flex-col items-center justify-center text-white py-5 px-3">
-                    <h1 className="text-3xl font-semibold leading-tight">Verify Your Email</h1>
-                    <p className="mt-3 text-md text-emerald-100 text-center">We've sent a verification link to your email address. Please check your inbox and click to verify your email.</p>
-                    <p className="mt-3 text-md text-emerald-100">You will automatically redirect to the home page after verification.</p>
+            <div className="ios-card max-w-3xl">
+                <ul className="w-full flex flex-col items-center justify-center text-black py-5 px-3">
+                    <h1 className="text-3xl leading-none text-center">Verify Your Email</h1>
+                    <p className="mt-3 text-md text-black text-center leading-none">We've sent a verification link to your email address. Please check your inbox and click to verify your email.</p>
+                    <p className="mt-3 text-sm text-center text-black/50 font-semibold">You will automatically redirect to the home page after verification.</p>
                 </ul>
             </div>
 

@@ -4,9 +4,9 @@ import FormattedTitle from '../components/FormattedTitle';
 
 export const metadata: Metadata = {
     title: 'Shipping Information',
-    description: 'Learn about Slots Sports Wear shipping options, international delivery timelines, customs, and how we ensure safe delivery of your bulk apparel orders worldwide.',
+    description: 'Learn about Custom Golf Apparels shipping options, international delivery timelines, customs, and how we ensure safe delivery of your bulk apparel orders worldwide.',
     openGraph: {
-        title: 'Shipping Information — Slots Sports Wear',
+        title: 'Shipping Information — Custom Golf Apparels',
         description: 'Fast, reliable international shipping from Pakistan. Air and sea freight options to the USA, UK, Europe, Australia, and beyond.',
     },
 };

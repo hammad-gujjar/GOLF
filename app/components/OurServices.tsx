@@ -194,7 +194,7 @@ const OurServices = () => {
         <div className='w-full bg-[#111111] mt-15'>
             <div className="w-full flex flex-col items-center gap-10 py-25 px-10">
                 <Heading title='Our Services' className='w-fit !text-[#EDEEE7]' />
-                <p className='text-center md:px-15 !text-[#EDEEE7]'>At Slots Sportswear, we specialize in manufacturing high-quality sports apparel designed to meet international standards. Based in Pakistan, we offer a complete range of services including custom design, fabric sourcing, cutting, stitching, printing, and branding. Our expertise covers team uniforms, fitness wear, and performance sports clothing tailored to your specifications. With a strong focus on quality, durability, and timely delivery, Slots Sportswear is committed to helping brands, teams, and businesses bring their vision to life with precision and professionalism.</p>
+                <p className='text-center md:px-15 !text-[#EDEEE7]'>At Custom Golf Apparels, we specialize in manufacturing high-quality sports apparel designed to meet international standards. Based in Pakistan, we offer a complete range of services including custom design, fabric sourcing, cutting, stitching, printing, and branding. Our expertise covers team uniforms, fitness wear, and performance sports clothing tailored to your specifications. With a strong focus on quality, durability, and timely delivery, Custom Golf Apparels is committed to helping brands, teams, and businesses bring their vision to life with precision and professionalism.</p>
             </div>
 
             <div ref={wrapperRef} className="w-full relative">

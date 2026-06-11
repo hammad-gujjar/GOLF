@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
     if (!product) return { title: 'Product Not Found' };
 
     const description = product.description?.substring(0, 160) || '';
-    const imageUrl = product.media?.[0]?.secure_url || 'https://slotssportswear.com/images/daccilogosvg.png';
+    const imageUrl = product.media?.[0]?.secure_url || 'https://customgolfapparels.com/images/daccilogosvg.png';
 
     return {
         title: product.name,
@@ -113,16 +113,16 @@ export default async function Page({ params }: ProductPageProps) {
         sku: productData.slug,
         brand: {
             '@type': 'Brand',
-            name: 'Slots Sports Wear',
+            name: 'Custom Golf Apparels',
         },
         category: productData.category?.name || '',
         offers: {
             '@type': 'Offer',
-            url: `https://slotssportswear.com/product/${productData.slug}`,
+            url: `https://customgolfapparels.com/product/${productData.slug}`,
             priceCurrency: 'PKR',
             price: productData.sellingPrice || productData.price || 0,
             availability: 'https://schema.org/InStock',
-            seller: { '@type': 'Organization', name: 'Slots Sports Wear' },
+            seller: { '@type': 'Organization', name: 'Custom Golf Apparels' },
         },
         ...(productData.averageRating > 0 && productData.reviews?.length > 0
             ? {

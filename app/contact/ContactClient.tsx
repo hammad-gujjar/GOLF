@@ -87,7 +87,7 @@ export default function ContactClient({ categories }: ContactClientProps) {
         try {
             const { data } = await axios.post('/api/contact/submit', formData);
             if (data.success) {
-                toast.success('Tech Pack successfully submitted to Slots Sports Wear.');
+                toast.success('Tech Pack successfully submitted to Custom Golf Apparels.');
                 setFormData({
                     name: '',
                     email: '',
@@ -123,7 +123,7 @@ export default function ContactClient({ categories }: ContactClientProps) {
                             <div className="space-y-2 group cursor-pointer border-b border-neutral-900/20 pb-3 w-fit">
                                 <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-neutral-400 group-hover:text-neutral-900 transition-colors duration-300">New Projects</span>
                                 <p className='pt-2'>
-                                    info@slotssportswear.com
+                                    info@customgolfapparels.com
                                 </p>
                                 <p>
                                     +92 308 6762 402
@@ -132,7 +132,7 @@ export default function ContactClient({ categories }: ContactClientProps) {
                             <div className="space-y-2 group cursor-pointer border-b border-neutral-900/20 pb-3 w-fit">
                                 <span className="text-[10px] uppercase tracking-[0.5em] font-bold text-neutral-400 group-hover:text-neutral-900 transition-colors duration-300">Headquarters</span>
                                 <p className='pt-2'>
-                                    Slots Sports Wear Studio
+                                    Custom Golf Apparels Studio
                                 </p>
                                 <p>
                                     Punjab, Pakistan

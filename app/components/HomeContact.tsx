@@ -101,7 +101,7 @@ const HomeContact = () => {
                 <div className="w-full h-px bg-black/5 reveal-up mt-12 pb-10"></div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center w-full gap-6 reveal-up text-black/20 text-[9px] uppercase font-bold tracking-[0.4em]">
-                    <p>© 2026 Slots Sports Wear. All rights reserved.</p>
+                    <p>© 2026 Custom Golf Apparels. All rights reserved.</p>
                     <div className="flex gap-10">
                         <a href="/policy" className="hover:text-black transition-colors">Privacy Policy</a>
                         <a href="/terms" className="hover:text-black transition-colors">Terms of Service</a>

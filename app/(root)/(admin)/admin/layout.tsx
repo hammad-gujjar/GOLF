@@ -28,13 +28,13 @@ export default async function AdminLayout({
             <SidebarProvider className='mt-14'>
                 <SideBar />
                 <main className="w-full md:w-[calc(100%-16rem)] min-h-screen relative">
-                    <div className="p-5 min-h-[calc(100vh-96px)] w-full">
+                    <div className="min-h-[calc(100vh-96px)] w-full">
                         <Topbar />
                         {children}
                     </div>
 
                     <div className='border-t h-10 flex items-center justify-center'>
-                        @2026 Slots Sports Wear Admin Panel
+                        @2026 Custom Golf Apparels Admin Panel
                     </div>
 
                 </main>

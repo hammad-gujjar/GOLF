@@ -4,10 +4,10 @@ import FormattedTitle from '../components/FormattedTitle';
 
 export const metadata: Metadata = {
     title: 'Terms & Conditions',
-    description: 'Read the Terms and Conditions of Slots Sports Wear. Understand your rights and obligations when placing orders, using our website, or engaging our manufacturing services.',
+    description: 'Read the Terms and Conditions of Custom Golf Apparels. Understand your rights and obligations when placing orders, using our website, or engaging our manufacturing services.',
     openGraph: {
-        title: 'Terms & Conditions — Slots Sports Wear',
-        description: 'The complete terms governing use of the Slots Sports Wear website and manufacturing services.',
+        title: 'Terms & Conditions — Custom Golf Apparels',
+        description: 'The complete terms governing use of the Custom Golf Apparels website and manufacturing services.',
     },
     robots: { index: true, follow: true },
 };
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 const clauses = [
     {
         title: 'Acceptance of Terms',
-        body: 'By accessing this website, submitting a tech pack, placing an order, or otherwise engaging with Slots Sports Wear ("the Company"), you ("the Client") agree to be bound by these Terms and Conditions. If you do not agree, you must discontinue use of our services immediately. We reserve the right to update these Terms at any time without prior notice. Continued use of our services constitutes acceptance of any revised Terms.',
+        body: 'By accessing this website, submitting a tech pack, placing an order, or otherwise engaging with Custom Golf Apparels ("the Company"), you ("the Client") agree to be bound by these Terms and Conditions. If you do not agree, you must discontinue use of our services immediately. We reserve the right to update these Terms at any time without prior notice. Continued use of our services constitutes acceptance of any revised Terms.',
     },
     {
         title: 'Services Provided',
-        body: 'Slots Sports Wear provides custom sportswear and apparel manufacturing services, including but not limited to: custom cut-and-sew production, private label manufacturing, sample development, embroidery, printing, and global logistics. All services are subject to capacity availability, minimum order quantities (MOQ), and approved tech pack specifications. The Company reserves the right to decline any order at its discretion.',
+        body: 'Custom Golf Apparels provides custom sportswear and apparel manufacturing services, including but not limited to: custom cut-and-sew production, private label manufacturing, sample development, embroidery, printing, and global logistics. All services are subject to capacity availability, minimum order quantities (MOQ), and approved tech pack specifications. The Company reserves the right to decline any order at its discretion.',
     },
     {
         title: 'Orders & Minimum Order Quantities',
@@ -39,7 +39,7 @@ const clauses = [
     },
     {
         title: 'Intellectual Property',
-        body: 'Clients retain full ownership of designs, logos, and branding elements submitted to the Company. By submitting design files, the Client grants Slots Sports Wear a limited licence to use the designs solely for the purpose of production fulfilment. The Company will not reproduce, share, or commercially use Client designs without explicit written consent. The Client warrants that submitted designs do not infringe third-party intellectual property rights and agrees to indemnify the Company against any related claims.',
+        body: 'Clients retain full ownership of designs, logos, and branding elements submitted to the Company. By submitting design files, the Client grants Custom Golf Apparels a limited licence to use the designs solely for the purpose of production fulfilment. The Company will not reproduce, share, or commercially use Client designs without explicit written consent. The Client warrants that submitted designs do not infringe third-party intellectual property rights and agrees to indemnify the Company against any related claims.',
     },
     {
         title: 'Shipping & Risk of Loss',
@@ -73,7 +73,7 @@ export default function TermsPage() {
                     <span className="text-[10px] uppercase tracking-[0.5em] font-bold opacity-30">Legal · Last Updated: April 2026</span>
                     <h1 className="uppercase"><FormattedTitle>Terms & Conditions</FormattedTitle></h1>
                     <p className="md:w-[55%] w-full">
-                        These Terms govern your use of the Slots Sports Wear website and all manufacturing services we provide. Please read them carefully before placing any order.
+                        These Terms govern your use of the Custom Golf Apparels website and all manufacturing services we provide. Please read them carefully before placing any order.
                     </p>
                     <div className="flex gap-4 flex-wrap">
                         <Link href="/policy" className="text-[10px] uppercase tracking-[0.4em] font-bold underline underline-offset-4 opacity-50 hover:opacity-100 transition-opacity">

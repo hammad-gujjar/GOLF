@@ -4,8 +4,8 @@ import { Category } from '@/models/category.model';
 import ContactClient from './ContactClient';
 
 export const metadata = {
-    title: 'Contact & Tech Pack · Slots Sports Wear',
-    description: 'Reach out to Slots Sports Wear for bespoke tailoring, unique collections, or submit a Tech Pack for your custom manufacturing needs.',
+    title: 'Contact & Tech Pack · Custom Golf Apparels',
+    description: 'Reach out to Custom Golf Apparels for bespoke tailoring, unique collections, or submit a Tech Pack for your custom manufacturing needs.',
 };
 
 async function getCategories() {
