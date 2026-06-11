@@ -138,7 +138,7 @@ const HeroSection = ({ arrivalData }: HeroSectionProps) => {
       {/* Background image — LCP element, load eagerly with high fetch priority */}
       <img
         className='object-cover size-full'
-        src="https://res.cloudinary.com/dhrfua4wp/image/upload/v1780148472/remove_the_text_on_this_202605301840_dqohzp.webp"
+        src="images/hero.jpeg"
         alt="Custom Golf Apparels premium clothing collection"
         loading="eager"
         fetchPriority="high"

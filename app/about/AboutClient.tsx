@@ -121,7 +121,7 @@ const AboutClient = () => {
                     </p>
                 </div>
                 <img 
-                    src="https://i.pinimg.com/1200x/70/64/3f/70643f7a6e3937ce322314083d60ea8d.jpg" 
+                    src="images/about.jpeg" 
                     alt="Manufacturing Banner" 
                     className='about-main-img w-full h-[90vh] object-cover py-10' 
                 />
