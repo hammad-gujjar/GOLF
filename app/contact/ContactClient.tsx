@@ -42,7 +42,7 @@ export default function ContactClient({ categories }: ContactClientProps) {
 
     const LINKS = {
         quickLinks: [
-            { label: 'Instagram', href: '#', icon: <IoLogoInstagram /> },
+            { label: 'Instagram', href: 'https://www.instagram.com/customgolfapparels', icon: <IoLogoInstagram /> },
             { label: 'Facebook', href: '#', icon: <IoLogoFacebook /> },
             { label: 'Medium', href: '#', icon: <FaMedium /> },
             { label: 'Pinterest', href: '#', icon: <IoLogoPinterest /> },

@@ -299,19 +299,13 @@ const AddProduct = () => {
             </div>
 
             <div className="flex flex-col gap-2 col-span-2">
-              <Controller
-                control={form.control}
-                name="description"
-                render={({ field }) => (
-                  <Editor onChange={editor} initialData={field.value} />
-                )}
-              />
-              {/* Show error for category if validation fails */}
-              {form.formState.errors.description && (
-                <p className="text-red-500 text-sm">
-                  {form.formState.errors.description.message}
-                </p>
-              )}
+              <textarea
+              type="text"
+              placeholder="Enter Description"
+              className="ios-input"
+              {...form.register('description')}
+              required
+            />
             </div>
 
             <div className='col-span-2 ios-input flex flex-col items-center justify-center gap-5'>

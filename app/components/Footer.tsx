@@ -6,10 +6,10 @@ import Heading from './Heading';
 
 const LINKS = {
     quickLinks: [
-        { label: 'Instagram', href: 'https://www.instagram.com/customgolfapparels2025/', icon: <IoLogoInstagram /> },
-        { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61579978311422', icon: <IoLogoFacebook /> },
-        { label: 'Twitter', href: 'https://x.com/customgolfapparels', icon: <FaXTwitter /> },
-        { label: 'Pinterest', href: 'https://www.pinterest.com/customgolfapparels/', icon: <IoLogoPinterest /> },
+        { label: 'Instagram', href: 'https://www.instagram.com/customgolfapparels', icon: <IoLogoInstagram /> },
+        { label: 'Facebook', href: 'https://www.facebook.com', icon: <IoLogoFacebook /> },
+        { label: 'Twitter', href: 'https://x.com', icon: <FaXTwitter /> },
+        { label: 'Pinterest', href: 'https://www.pinterest.com', icon: <IoLogoPinterest /> },
     ]
 };
 
