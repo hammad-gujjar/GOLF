@@ -7,9 +7,9 @@ import Heading from './Heading';
 const LINKS = {
     quickLinks: [
         { label: 'Instagram', href: 'https://www.instagram.com/customgolfapparels', icon: <IoLogoInstagram /> },
-        { label: 'Facebook', href: 'https://www.facebook.com', icon: <IoLogoFacebook /> },
-        { label: 'Twitter', href: 'https://x.com', icon: <FaXTwitter /> },
-        { label: 'Pinterest', href: 'https://www.pinterest.com', icon: <IoLogoPinterest /> },
+        { label: 'Facebook', href: '#', icon: <IoLogoFacebook /> },
+        { label: 'Twitter', href: '#', icon: <FaXTwitter /> },
+        { label: 'Pinterest', href: '#', icon: <IoLogoPinterest /> },
     ]
 };
 
