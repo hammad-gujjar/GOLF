@@ -126,7 +126,7 @@ export default function ContactClient({ categories }: ContactClientProps) {
                                     info@customgolfapparels.com
                                 </p>
                                 <p>
-                                    +92 308 6762 402
+                                    +92 370 5276 209
                                 </p>
                             </div>
                             <div className="space-y-2 group cursor-pointer border-b border-neutral-900/20 pb-3 w-fit">
