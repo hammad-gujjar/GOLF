@@ -300,7 +300,6 @@ const AddProduct = () => {
 
             <div className="flex flex-col gap-2 col-span-2">
               <textarea
-              type="text"
               placeholder="Enter Description"
               className="ios-input"
               {...form.register('description')}
@@ -344,7 +343,7 @@ const AddProduct = () => {
                 <input
                   type="text"
                   placeholder="Add tag (e.g., New Arrival, Bestseller)"
-                  className="ios-input flex-1 !p-2"
+                  className="ios-input flex-1 p-2!"
                   value={currentTag}
                   onChange={(e) => setCurrentTag(e.target.value)}
                   onKeyPress={handleTagKeyPress}
@@ -370,7 +369,7 @@ const AddProduct = () => {
                       <button
                         type="button"
                         onClick={() => removeTag(tag)}
-                        className="hover:text-red-600 text-zinc-500 hover:text-red-500 transition-colors"
+                        className="hover:text-red-500 text-zinc-500 hover:text-red-500 transition-colors"
                       >
                         <X size={14} />
                       </button>
