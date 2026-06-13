@@ -15,7 +15,7 @@ const LINKS = {
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-[#111111] text-[#EDEEE7] py-10 px-5 md:px-10 overflow-hidden">
+        <footer className="w-full bg-black text-[#EDEEE7] py-10 px-5 md:px-10 overflow-hidden">
             <div className="max-w-screen-2xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.5fr] gap-10 md:gap-5 mb-5">
 
@@ -97,7 +97,7 @@ const Footer = () => {
 
                 {/* Massive Branding */}
                 <div className="relative pointer-events-none select-none w-full h-fit flex justify-center py-5">
-                    <Heading title="CUSTOM GOLF APPARELS" className='!text-[#EDEEE7]' />
+                    <Heading title="CUSTOM GOLF APPARELS" className='text-[#EDEEE7]!' />
                 </div>
 
                 {/* Bottom Meta */}
